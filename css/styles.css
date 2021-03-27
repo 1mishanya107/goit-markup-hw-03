@@ -279,6 +279,7 @@ p {
 
 .btn-filters {
   font-weight: 500;
+  margin-right: 8px;
 }
 
 .filters .list-no-style {
