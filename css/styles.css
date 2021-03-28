@@ -217,12 +217,12 @@ p {
 }
 /* /section */
 
-/* Features */
-.feature-list {
+/* advantage */
+.advantage-list {
   display: flex;
   justify-content: space-between;
 }
-.feature-list .title {
+.advantage-list .title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.143;
@@ -237,7 +237,7 @@ p {
 .advantage:not(:last-child) {
   margin-right: 30px;
 }
-/* /Features */
+/* /advantage */
 
 /* Work */
 .work {
@@ -258,7 +258,6 @@ p {
   line-height: 1.188;
   text-align: center;
   display: flex;
-  justify-content: space-between;
 }
 
 .team-list .title {
@@ -270,6 +269,12 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.team-list .element {
+  width: 270px;
+}
+.team-list .element:not(:last-child) {
+  margin-right: 30px;
+}
 /* /Team */
 
 /* Buttons */
@@ -277,12 +282,15 @@ p {
   font-weight: 700;
 }
 
-.btn-filters {
-  font-weight: 500;
+.filters .btn:not(:last-child) {
   margin-right: 8px;
 }
 
-.filters .list-no-style {
+.btn-filters {
+  font-weight: 500;
+}
+
+.filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -365,7 +373,7 @@ p {
 .footer-address .link-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-address .item.item:not(:last-child) {
+.footer-address .item:not(:last-child) {
   margin-bottom: 9px;
 }
 
